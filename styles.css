@@ -1,0 +1,73 @@
+body {
+    background-color: blue;
+    margin: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color: white;
+}
+.headr {
+    color: blue;
+    display: block;
+}
+.headr p{
+    color: blue;
+    margin-left: 90%; 
+    margin-top: -5%; 
+    display: flex;
+    align-items: center;
+}
+.headr h1{
+    color: blue;
+    margin-left: 10%; 
+    margin-top: 10%; 
+}
+
+.container .columnone .btn{
+    padding: 10px; 
+    color: white;
+    background-color: blue;
+    display: flex;
+    align-items: left;
+}
+.container .columnone .button{
+    display: flex;
+}
+.container .columnone .button p{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.container {
+    max-width: 100%;
+    height: 10%;
+    background-color: white;
+    padding: 50px; 
+}
+
+.container .columnone{
+    display: flex;
+    background-color:  #e6f2ff;
+    max-width: 100%;
+    height: 5%;
+    align-items: left;
+    column-gap: 30px;
+    padding: 20px;
+}
+.columnone .inputage input{
+    display: block;
+}
+
+.container .columntwo{
+    background-color:  #e6f2ff;
+    max-width: 100%;
+    height: 5%;
+    border: 1px solid black;
+    height: 5%;
+    padding: 20px;
+}
+.columntwo .go{
+    background-color: blue;
+}
+.main .footr {
+    text-align: center;
+}
